@@ -1,7 +1,7 @@
 ---
-title: Phillip Nicol's Webpage 
+title: Homepage
 ---
 
-# Phillip Nicol's Webpage
+# Welcome 
 
 TODO.

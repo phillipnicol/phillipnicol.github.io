@@ -7,7 +7,7 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
 
-remote_theme: dhilanr/jekyll-theme-dhilan@main
+remote_theme: phillipnicol/jekyll-theme-phillipnicol@main
 
 url: phillipnicol.github.io
 baseurl: /
@@ -21,7 +21,7 @@ paginate:         5
 paginate_path:    '/blog/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
 
-disqus.shortname: dhilanr
+disqus.shortname: phillipnicol
 
 # Google Analytics
 #google_analytics: G-TY0L5Q1HKQ
