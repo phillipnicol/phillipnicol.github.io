@@ -8,4 +8,4 @@ comments: true
 
 Hello all, welcome to my blog! 
 
-I hope to write short posts on topics such as statistics, bioinformatics, probability, and other topics that I find interesting. Thanks for tuning in! 
+I hope to write short posts on topics such as statistics, bioinformatics, probability, and other things that I find interesting. Thanks for tuning in! 
