@@ -9,7 +9,7 @@ plugins:
 
 remote_theme: dhilanr/jekyll-theme-dhilan@main
 
-url: dhilanr.github.io
+url: phillipnicol.github.io
 baseurl: /
 
 title: Dhilan Ramaprasad
@@ -24,7 +24,7 @@ paginate_path:    '/blog/page:num'
 disqus.shortname: dhilanr
 
 # Google Analytics
-google_analytics: G-TY0L5Q1HKQ
+#google_analytics: G-TY0L5Q1HKQ
 
 
 # Set the image for the Open Graph Protocol
