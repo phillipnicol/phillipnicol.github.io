@@ -12,7 +12,7 @@ remote_theme: dhilanr/jekyll-theme-dhilan@main
 url: phillipnicol.github.io
 baseurl: /
 
-title: Dhilan Ramaprasad
+title: Phillip Nicol
 
 alert:
   - warning

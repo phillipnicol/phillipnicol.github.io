@@ -1,21 +1,8 @@
 ---
-title: Go for Dhilan
+title: Phillip Nicol's Webpage 
 ---
 
-<!-- <figure class="figure">
-    <a href="assets/dhilanr.png"><img alt="Arturo Real / CS50" class="figure-img img-fluid rounded" src="assets/dhilanr.png"></a>
-    <figcaption class="figure-caption text-end">Intro Sequence / CS141</figcaption>
-</figure> -->
-
-<figure class="figure">
-  <video autoplay loop controls muted class="vid-fluid rounded">
-    <source src="assets/videos/141teaser.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-    <figcaption class="figure-caption text-end">Intro Sequence / CS141</figcaption>
-</figure>
-
-# Go for Dhilan!
+# Phillip Nicol's Webpage
 
 This is the launchpad for all-things-Dhilan.  Visit the [blog](\blog) for the latest, stream of consciousness thoughts.
 
