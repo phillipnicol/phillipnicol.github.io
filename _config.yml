@@ -21,7 +21,7 @@ paginate:         5
 paginate_path:    '/blog/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
 
-disqus.shortname: phillipnicol
+disqus.shortname: phillipnicol-github-io
 
 # Google Analytics
 #google_analytics: G-TY0L5Q1HKQ
