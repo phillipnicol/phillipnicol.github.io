@@ -7,7 +7,7 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
 
-remote_theme: dhilanr/jekyll-theme-dhilan@main
+remote_theme: phillipnicol/jekyll-theme-dhilan@main
 
 url: phillipnicol.github.io
 baseurl: /
