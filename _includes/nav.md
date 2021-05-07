@@ -6,7 +6,6 @@
 ***
 
 * [Teaching]({{ "/teaching" | relative_url }})
-* [Engineering]({{ "/engineering" | relative_url }})
 
 ***
 
