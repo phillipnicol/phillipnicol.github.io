@@ -8,9 +8,3 @@
 * [Teaching]({{ "/teaching" | relative_url }})
 
 ***
-
-* [Miscellaneous]({{ "/misc" | relative_url }})
-* [Bredesen for Senate]({{ "/bfs" | relative_url }})
-* [Selected films]({{ "/selected_films" | relative_url }})
-
-***
