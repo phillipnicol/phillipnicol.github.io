@@ -1,16 +1,72 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "phillipnicol.github.io",
+    "title": "Phillip Nicol",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Hi"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nMay 8, 2023\n\n\nRobust identification of perturbed cell types in single-cell RNA-seq data (scDist)\n\n\n\n\n\n\n\nApr 21, 2023\n\n\nDimension reduction for single-cell RNA-seq using generalized bilinear models (scGBM)\n\n\n\n\n\n\n\nJul 10, 2020\n\n\nModeling cancer evolution with an interacting particle system (SITH)\n\n\n\n\n\n\n\nApr 14, 2020\n\n\nEstimating temporal order of mutations with Bayesian networks (OncoBN)\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/scDist/scDist.html",
+    "href": "projects/scDist/scDist.html",
+    "title": "Robust identification of perturbed cell types in single-cell RNA-seq data (scDist)",
+    "section": "",
+    "text": "Paper:\nSoftware:"
+  },
+  {
+    "objectID": "projects/scDist/scDist.html#overview",
+    "href": "projects/scDist/scDist.html#overview",
+    "title": "Robust identification of perturbed cell types in single-cell RNA-seq data (scDist)",
+    "section": "Overview",
+    "text": "Overview"
+  },
+  {
+    "objectID": "projects/scGBM/scGBM.html",
+    "href": "projects/scGBM/scGBM.html",
+    "title": "Dimension reduction for single-cell RNA-seq using generalized bilinear models (scGBM)",
+    "section": "",
+    "text": "Paper:\nSoftware:"
+  },
+  {
+    "objectID": "projects/scGBM/scGBM.html#overview",
+    "href": "projects/scGBM/scGBM.html#overview",
+    "title": "Dimension reduction for single-cell RNA-seq using generalized bilinear models (scGBM)",
+    "section": "Overview",
+    "text": "Overview"
+  },
+  {
+    "objectID": "projects/OncoBN/oncoBN.html",
+    "href": "projects/OncoBN/oncoBN.html",
+    "title": "Estimating temporal order of mutations with Bayesian networks (OncoBN)",
+    "section": "",
+    "text": "Paper:\nSoftware:"
+  },
+  {
+    "objectID": "projects/OncoBN/oncoBN.html#overview",
+    "href": "projects/OncoBN/oncoBN.html#overview",
+    "title": "Estimating temporal order of mutations with Bayesian networks (OncoBN)",
+    "section": "Overview",
+    "text": "Overview"
+  },
+  {
+    "objectID": "projects/SITH/SITH.html",
+    "href": "projects/SITH/SITH.html",
+    "title": "Modeling cancer evolution with an interacting particle system (SITH)",
+    "section": "",
+    "text": "Paper:\nSoftware:"
+  },
+  {
+    "objectID": "projects/SITH/SITH.html#overview",
+    "href": "projects/SITH/SITH.html#overview",
+    "title": "Modeling cancer evolution with an interacting particle system (SITH)",
+    "section": "Overview",
+    "text": "Overview"
   }
 ]

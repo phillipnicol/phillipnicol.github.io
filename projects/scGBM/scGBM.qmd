@@ -1,0 +1,11 @@
+---
+title: "Dimension reduction for single-cell RNA-seq using generalized bilinear models (scGBM)"
+date: "4/21/2023"
+categories: ["Single-cell RNA-seq"]
+---
+
+**Paper:**
+
+**Software:**
+
+## Overview
