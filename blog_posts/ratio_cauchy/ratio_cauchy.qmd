@@ -30,11 +30,12 @@ The density of the ratio $U$, $f_U(u)$, can be computed by the standard approach
 ```{=tex}
 \begin{align}
 
-f_(u) &= \int_{-\infty}^{\infty} \frac{|v|}{\pi^2 (1 + (uv)^2)(1+v^2)} = \frac{1}{\pi^2} \int_0^{\infty} \frac{1}{\pi^2 (1 + u^2 s)(1+s )ds }
+f_U(u) &= \int_{-\infty}^{\infty} \frac{|v|}{\pi^2 (1 + (uv)^2)(1+v^2)} = \frac{1}{\pi^2} \int_0^{\infty} \frac{1}{\pi^2 (1 + u^2 s)(1+s )ds }
 
 \end{align}
 ```
-Sir Dhav recognized that the integrand has a partial fraction decomposition:
+
+Madhav recognized that the integrand has a partial fraction decomposition:
 
 ```{=tex}
 \begin{equation}
