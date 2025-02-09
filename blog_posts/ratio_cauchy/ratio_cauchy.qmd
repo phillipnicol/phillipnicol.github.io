@@ -39,7 +39,7 @@ Madhav recognized that the integrand has a partial fraction decomposition:
 
 ```{=tex}
 \begin{equation}
-\int_0^{\infty} \frac{1}{\pi^2 (1 + u^2 s)(1+s )} = \frac{1}{\pi^2(u^2-1)} \left( \frac{u^2}{1+u^2 s} - \frac{1}{1+s} \right)
+\frac{1}{\pi^2 (1 + u^2 s)(1+s )} = \frac{1}{\pi^2(u^2-1)} \left( \frac{u^2}{1+u^2 s} - \frac{1}{1+s} \right)
 \end{equation}
 ```
 Thus
