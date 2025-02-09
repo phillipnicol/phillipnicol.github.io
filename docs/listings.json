@@ -7,5 +7,11 @@
       "/projects/SITH/SITH.html",
       "/projects/OncoBN/oncoBN.html"
     ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/blog_posts/ratio_cauchy/ratio_cauchy.html"
+    ]
   }
 ]

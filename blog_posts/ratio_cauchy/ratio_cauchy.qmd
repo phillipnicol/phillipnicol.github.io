@@ -1,0 +1,62 @@
+---
+title: "Ratio of Cauchy: ChatGPT fails this simple question"
+author: "Phillip Nicol"
+date: "2/8/2025"
+date-modefied: "2/8/2025"
+format:
+  html:
+    toc: true
+categories: ["Probability"]
+---
+
+It is well known that the ratio of two independent standard normals $Z_1/Z_2$ follows a Cauchy distribution. But what about the ratio of two (independent) Cauchy distributions? ChatGPT confidently tells me that it is still a Cauchy distribution. I almost agreed it with it and went on to have a productive day, but got suspicious after the following simulation:
+
+```{r}
+set.seed(1)
+x <- rcauchy(n=10^4); y <- rcauchy(n=10^4)
+r <- x/y
+
+#Quantiles of cauchy 
+quantile(x, c(0.025, 0.05, 0.25, 0.5, 0.75, 0.95, 0.975))
+
+#Quantiles of ratio of cauchy
+quantile(r, c(0.025, 0.05, 0.25, 0.5, 0.75, 0.95, 0.975))
+```
+
+Although the quartiles match up, the ratio appears to have significantly heavier tails.
+
+The density of the ratio $U$, $f_U(u)$, can be computed by the standard approach for (ratio distributions):
+
+```{=tex}
+\begin{align}
+
+f_(u) &= \int_{-\infty}^{\infty} \frac{|v|}{\pi^2 (1 + (uv)^2)(1+v^2)} = \frac{1}{\pi^2} \int_0^{\infty} \frac{1}{\pi^2 (1 + u^2 s)(1+s )ds }
+
+\end{align}
+```
+Sir Dhav recognized that the integrand has a partial fraction decomposition:
+
+```{=tex}
+\begin{equation}
+\int_0^{\infty} \frac{1}{\pi^2 (1 + u^2 s)(1+s )} = \frac{1}{\pi^2(u^2-1)} \left( \frac{u^2}{1+u^2 s} - \frac{1}{1+s} \right)
+\end{equation}
+```
+Thus
+
+```{=tex}
+\begin{align}
+f_U(u) &= \frac{1}{\pi^2 (u^2 - 1)} \left( \lim_{M \to \infty} \int_0^M \frac{u^2}{1+u^2 s} ds - \int_0^M \frac{1}{1+s}ds \right) \\
+&= \frac{1}{\pi^2 (u^2 -1)} \lim_{M \to \infty} \left( \ln(1 + u^2 M) - \ln(1+M) \right) \\
+&= \frac{\log u^2}{\pi^2 (u^2-1)}
+\end{align}
+```
+
+which is definitely not a Cauchy distribution. By the way, this is one of the weirdest densities I have ever seen, $f(u) \to \infty$ as $u \to 0$ and $f$ is indeterminate at $u = \pm 1$ (the limit may be evaluated using L'hospital's rule). Here is a plot comparing the Cauchy density (red) to its ratio (blue). Strangely enough, this plot shows seems to show that the ratio density has *lighter* tails, which is not in line with the simulation. Hm?
+
+![](cauchy_density.png)
+
+After deriving this, I found this old paper with the same result:
+
+Ride, P. R. (1965). Distributions of product and quotient of Cauchy variables. *The American Mathematical Monthly*, *72*(3), 303-305.
+
+This means ChatGPT is at least 60 years behind cutting edge statistics!
