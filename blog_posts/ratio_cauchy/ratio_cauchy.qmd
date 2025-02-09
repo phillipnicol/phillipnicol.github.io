@@ -51,7 +51,7 @@ f_U(u) &= \frac{1}{\pi^2 (u^2 - 1)} \left( \lim_{M \to \infty} \int_0^M \frac{u^
 \end{align}
 ```
 
-which is definitely not a Cauchy distribution. By the way, this is one of the weirdest densities I have ever seen, $f(u) \to \infty$ as $u \to 0$ and $f$ is indeterminate at $u = \pm 1$ (the limit may be evaluated using L'hospital's rule). Here is a plot comparing the Cauchy density (black) to its ratio (red). 
+which is definitely not a Cauchy distribution. By the way, this is one of the weirdest densities I have ever seen, $f(u) \to \infty$ as $u \to 0$ and $f$ is indeterminate at $u = \pm 1$ (the limit may be evaluated using L'hospital's rule). Here is a plot comparing the Cauchy density (red) to its ratio (black). 
 
 ```{r}
 x <- seq(-10, 10, by=0.001)
