@@ -2,4 +2,4 @@
 title: "Phillip Nicol"
 ---
 
-Hi
+I am a fourth year PhD student in the department of biostatistics at Harvard University. 
