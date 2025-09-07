@@ -1,5 +1,5 @@
 ---
-title: "Ratio of Cauchy: ChatGPT fails this simple question"
+title: "Ratio of Cauchy: ChatGPT fails on this simple question"
 author: "Phillip Nicol"
 date: "2/8/2025"
 date-modefied: "2/8/2025"
@@ -23,7 +23,7 @@ quantile(x, c(0.025, 0.05, 0.25, 0.5, 0.75, 0.95, 0.975))
 quantile(r, c(0.025, 0.05, 0.25, 0.5, 0.75, 0.95, 0.975))
 ```
 
-Although the quartiles match up, the ratio appears to have significantly heavier tails.
+Although the quantiles match, the ratio appears to have significantly heavier tails.
 
 The density of the ratio $U$, $f_U(u)$, can be computed by the standard approach for (ratio distributions):
 
@@ -34,7 +34,6 @@ f_U(u) &= \int_{-\infty}^{\infty} \frac{|v|}{\pi^2 (1 + (uv)^2)(1+v^2)} = \frac{
 
 \end{align}
 ```
-
 Madhav recognized that the integrand has a partial fraction decomposition:
 
 ```{=tex}
@@ -51,8 +50,7 @@ f_U(u) &= \frac{1}{\pi^2 (u^2 - 1)} \left( \lim_{M \to \infty} \int_0^M \frac{u^
 &= \frac{\log u^2}{\pi^2 (u^2-1)}
 \end{align}
 ```
-
-which is definitely not a Cauchy distribution. By the way, this is one of the weirdest densities I have ever seen, $f(u) \to \infty$ as $u \to 0$ and $f$ is indeterminate at $u = \pm 1$ (the limit may be evaluated using L'hospital's rule). Here is a plot comparing the Cauchy density (red) to its ratio (black). 
+which is definitely not a Cauchy distribution. By the way, this is one of the weirdest densities I have ever seen, $f(u) \to \infty$ as $u \to 0$ and $f$ is indeterminate at $u = \pm 1$ (the limit may be evaluated using L'hospital's rule). Here is a plot comparing the Cauchy density (red) to its ratio (black).
 
 ```{r}
 x <- seq(-10, 10, by=0.001)
@@ -62,7 +60,6 @@ fx <- (log(x^2))/(pi^2 * (x^2-1)) #Ratio
 plot(x,fx,type="l",ylab="Density")
 lines(x,gx,type="l", col="red")
 ```
-
 
 After deriving this, I found this old paper with the same result:
 

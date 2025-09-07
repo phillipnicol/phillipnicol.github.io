@@ -2,13 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-04-21">
 
-<title>phillipnicol.github.io - Dimension reduction for single-cell RNA-seq using generalized bilinear models (scGBM)</title>
+<title>phillipnicol.github.io - Model-based dimensionality reduction for single-cell RNA-seq using generalized bilinear models (scGBM)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -90,6 +89,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../../research.html" rel="" target="">
  <span class="menu-text">Research</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html" rel="" target="">
+ <span class="menu-text">Blog</span></a>
+  </li>  
 </ul>
             <div class="quarto-navbar-tools ms-auto">
 </div>
@@ -106,7 +109,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
   </ul>
 </nav>
     </div>
@@ -115,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Dimension reduction for single-cell RNA-seq using generalized bilinear models (scGBM)</h1>
+<h1 class="title">Model-based dimensionality reduction for single-cell RNA-seq using generalized bilinear models (scGBM)</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Single-cell RNA-seq</div>
   </div>
@@ -126,12 +129,6 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">April 21, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -139,10 +136,10 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><strong>Paper:</strong></p>
-<p><strong>Software:</strong></p>
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p><em>Nicol, P.B. and Miller, J.W. (2025).</em> Model-based dimensionality reduction for single-cell RNA-seq using generalized bilinear models. <strong><em>Biostatistics</em></strong>, <em>26(1)</em> <a href="https://doi.org/10.1093/biostatistics/kxaf024">[Paper]</a><a href="https://github.com/phillipnicol/scGBM">[Software]</a></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Dimensionality reduction is a critical step in the analysis of single-cell RNA-seq (scRNA-seq) data. The standard approach is to apply a transformation to the count matrix followed by principal components analysis (PCA). However, this approach can induce spurious heterogeneity and mask true biological variability. An alternative approach is to directly model the counts, but existing methods tend to be computationally intractable on large datasets and do not quantify uncertainty in the low-dimensional representation. To address these problems, we develop scGBM, a novel method for model-based dimensionality reduction of scRNA-seq data using a Poisson bilinear model. We introduce a fast estimation algorithm to fit the model using iteratively reweighted singular value decompositions, enabling the method to scale to datasets with millions of cells. Furthermore, scGBM quantifies the uncertainty in each cell's latent position and leverages these uncertainties to assess the confidence associated with a given cell clustering. On real and simulated single-cell data, we find that scGBM produces low-dimensional embeddings that better capture relevant biological information while removing unwanted variation.</p>
 
 
 </section>
