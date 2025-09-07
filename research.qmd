@@ -1,12 +1,24 @@
 ---
 title: "Research"
-listing:
-    contents: projects
-    sort: "date desc"
-    type: table
-    categories: true
-    sort-ui: true
-    filter-ui: true
-page-layout: full
 title-block-banner: true
 ---
+
+## **RANDOM MATRIX THEORY**
+
+*Baharav, T.Z.∗, Nicol, P.B.∗, Irizarry, R.A., and Ma, R. (2025).* Stacked SVD or SVD Stacked? A Random Matrix Theory perspective on data integration [\[arXiv\]](https://arxiv.org/abs/2507.22170)
+
+## **SPATIAL TRANSCRIPTOMICS**
+
+*Nicol, P.B., Ma, R., Xu, R.J., Moffitt, J.R., and Irizarry, R.A. (2024).* Identifying spatially variable genes by projecting to morphologically relevant curves [\[bioRxiv\]](https://www.biorxiv.org/content/10.1101/2024.11.21.624653v2)[\[Software\]](https://github.com/phillipnicol/MorphoGAM)
+
+## **SINGLE-CELL RNA-SEQ**
+
+*Nicol, P.B. and Miller, J.W. (2025).* Model-based dimensionality reduction for single-cell RNA-seq using generalized bilinear models. ***Biostatistics** 26(1)* [\[Paper\]](https://doi.org/10.1093/biostatistics/kxaf024)[\[Software\]](https://github.com/phillipnicol/scGBM)
+
+*Nicol, P.B., Paulson, D., Qian, G., Liu, X.S., Irizarry, R.A., and Sahu, A.D. (2024).* Robust identification of perturbed cell types in single-cell RNA-seq data*. **Nature Communications** 15(7610)* [\[Paper\]](https://doi.org/10.1038/s41467-024-51649-3)[\[Software\]](https://github.com/phillipnicol/scDist)
+
+## **CANCER EVOLUTION**
+
+*Nicol, P.B., Barabasi, D.L., Coombes, K.R. and Asiaee, A. (2022).* SITH: an R package for visualizing and analyzing a spatial model of intratumor heterogeneity. ***Computational and Systems Oncology** 2(2), pg. e1033* [\[Paper\]](https://doi.org/10.1002/cso2.1033)[\[Software\]](https://github.com/phillipnicol/SITH)
+
+*Nicol, P.B., Coombes, K.R., Deaver, C., Chkrebtii, O.A., Paul, S., Toland, A.E., and Asiaee, A. (2021).* Oncogenetic network estimation with disjunctive Bayesian networks. ***Computational and Systems Oncology** 1(2), pg. e1027* [\[Paper\]](https://doi.org/10.1002/cso2.1027)[\[Software\]](https://github.com/phillipnicol/OncoBN)

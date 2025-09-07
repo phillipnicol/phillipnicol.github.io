@@ -1,11 +1,11 @@
 ---
-title: "Dimension reduction for single-cell RNA-seq using generalized bilinear models (scGBM)"
-date: "4/21/2023"
+title: "Model-based dimensionality reduction for single-cell RNA-seq using generalized bilinear models (scGBM)"
+date: ""
 categories: ["Single-cell RNA-seq"]
 ---
 
-**Paper:**
+*Nicol, P.B. and Miller, J.W. (2025).* Model-based dimensionality reduction for single-cell RNA-seq using generalized bilinear models. ***Biostatistics***, *26(1)* [\[Paper\]](https://doi.org/10.1093/biostatistics/kxaf024)[\[Software\]](https://github.com/phillipnicol/scGBM)
 
-**Software:**
+## Abstract
 
-## Overview
+Dimensionality reduction is a critical step in the analysis of single-cell RNA-seq (scRNA-seq) data. The standard approach is to apply a transformation to the count matrix followed by principal components analysis (PCA). However, this approach can induce spurious heterogeneity and mask true biological variability. An alternative approach is to directly model the counts, but existing methods tend to be computationally intractable on large datasets and do not quantify uncertainty in the low-dimensional representation. To address these problems, we develop scGBM, a novel method for model-based dimensionality reduction of scRNA-seq data using a Poisson bilinear model. We introduce a fast estimation algorithm to fit the model using iteratively reweighted singular value decompositions, enabling the method to scale to datasets with millions of cells. Furthermore, scGBM quantifies the uncertainty in each cell\'s latent position and leverages these uncertainties to assess the confidence associated with a given cell clustering. On real and simulated single-cell data, we find that scGBM produces low-dimensional embeddings that better capture relevant biological information while removing unwanted variation.

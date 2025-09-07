@@ -1,5 +1,14 @@
 ---
-title: "Phillip Nicol"
+title: "About"
+title-block-banner: true
 ---
 
-I am a fourth year PhD student in the department of biostatistics at Harvard University. Update
+I am a fifth year PhD student in Department of Biostatistics at Harvard University, where I am co-advised by Dr. Rafael Irizarry and Dr. Jeff Miller. Prior to joining the Biostatistics department, I was a mathematics major at Harvard.
+
+My research interests lie at the intersection of statistics and genomics. My recent work includes:
+
+1.  General thing about scDist/ScGBM
+2.  General thing about morphoGAM
+3.  General thing about SVD
+
+Email: phillipnicol\@g.harvard.edu

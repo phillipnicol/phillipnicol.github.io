@@ -2,8 +2,8 @@
   {
     "listing": "/research.html",
     "items": [
-      "/projects/scDist/scDist.html",
       "/projects/scGBM/scGBM.html",
+      "/projects/scDist/scDist.html",
       "/projects/SITH/SITH.html",
       "/projects/OncoBN/oncoBN.html"
     ]
