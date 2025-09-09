@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "About",
     "section": "",
-    "text": "I am a fifth year PhD student in Department of Biostatistics at Harvard University, where I am co-advised by Dr. Rafael Irizarry and Dr. Jeff Miller. Prior to joining the Biostatistics department, I was a mathematics major at Harvard.\nMy research interests lie at the intersection of statistics and genomics. My recent work includes:\n\nGeneral thing about scDist/ScGBM\nGeneral thing about morphoGAM\nGeneral thing about SVD\n\nEmail: phillipnicol@g.harvard.edu"
+    "text": "I am a fifth year PhD student in Department of Biostatistics at Harvard University, where I am co-advised by Dr. Rafael Irizarry and Dr. Jeff Miller. Prior to joining the Biostatistics department, I was a mathematics major at Harvard.\nMy research interests lie at the intersection of statistics and genomics. My recent work includes:\n\nDimensionality reduction for single-cell genomic data\nMethodology for spatial transcriptomics\nIntegration of high-dimensional random matrices\n\nEmail: phillipnicol@g.harvard.edu"
   },
   {
     "objectID": "research.html",

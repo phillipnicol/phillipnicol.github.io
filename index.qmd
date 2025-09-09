@@ -7,8 +7,8 @@ I am a fifth year PhD student in Department of Biostatistics at Harvard Universi
 
 My research interests lie at the intersection of statistics and genomics. My recent work includes:
 
-1.  General thing about scDist/ScGBM
-2.  General thing about morphoGAM
-3.  General thing about SVD
+1.  Dimensionality reduction for single-cell genomic data
+2.  Methodology for spatial transcriptomics
+3.  Integration of high-dimensional random matrices
 
 Email: phillipnicol\@g.harvard.edu
