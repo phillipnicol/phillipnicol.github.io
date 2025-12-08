@@ -9,7 +9,7 @@
 <meta name="author" content="Phillip Nicol">
 <meta name="dcterms.date" content="2025-12-08">
 
-<title>Binomial risk under absolute value loss: an interesting pattern – Phillip Nicol</title>
+<title>Binomial risk under absolute value loss: why a cauliflower? – Phillip Nicol</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -193,7 +193,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Binomial risk under absolute value loss: an interesting pattern</h1>
+<h1 class="title">Binomial risk under absolute value loss: why a cauliflower?</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Probability</div>
   </div>
@@ -225,7 +225,7 @@ window.Quarto = {
 </header>
 
 
-<p>If <span class="math inline">\(X \sim \text{Binom}(n,p)\)</span> then the estimator <span class="math inline">\(\hat{p} = X/n\)</span> satisfies <span class="math inline">\(\mathbb{E}(\hat{p} - p)^2 = np(1-p)\)</span>, which is quadratic (and concave) in <span class="math inline">\(p\)</span>. Instead of using a squared error, we could consider the risk under the absolute value loss:</p>
+<p>If <span class="math inline">\(X \sim \text{Binom}(n,p)\)</span> then the estimator <span class="math inline">\(\hat{p} = X/n\)</span> satisfies <span class="math inline">\(\mathbb{E}(\hat{p} - p)^2 = n^{-1}p(1-p)\)</span>, which is quadratic (and concave) in <span class="math inline">\(p\)</span>. Instead of using a squared error, we could consider the risk under the absolute value loss:</p>
 <p><span class="math display">\[
 R(p) = \mathbb{E} | \hat{p} - p|
 \]</span></p>

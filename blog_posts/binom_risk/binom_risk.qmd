@@ -1,5 +1,5 @@
 ---
-title: "Binomial risk under absolute value loss: an interesting pattern"
+title: "Binomial risk under absolute value loss: why a cauliflower?"
 author: "Phillip Nicol"
 date: "12/8/2025"
 date-modefied: "12/8/2025"
@@ -9,7 +9,7 @@ format:
 categories: ["Probability"]
 ---
 
-If $X \sim \text{Binom}(n,p)$ then the estimator $\hat{p} = X/n$ satisfies $\mathbb{E}(\hat{p} - p)^2 = np(1-p)$, which is quadratic (and concave) in $p$. Instead of using a squared error, we could consider the risk under the absolute value loss:
+If $X \sim \text{Binom}(n,p)$ then the estimator $\hat{p} = X/n$ satisfies $\mathbb{E}(\hat{p} - p)^2 = n^{-1}p(1-p)$, which is quadratic (and concave) in $p$. Instead of using a squared error, we could consider the risk under the absolute value loss:
 
 $$
 R(p) = \mathbb{E} | \hat{p} - p|
