@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "About",
     "section": "",
-    "text": "I am a fifth year PhD student in Department of Biostatistics at Harvard University, where I am co-advised by Dr. Rafael Irizarry and Dr. Jeff Miller. Prior to joining the Biostatistics department, I was a mathematics major at Harvard.\nMy research interests lie at the intersection of statistics and genomics. My recent work includes:\n\nDimensionality reduction for single-cell genomic data\nManifold learning for spatial transcriptomics\nIntegration of high-dimensional random matrices\n\nEmail: phillipnicol@g.harvard.edu"
+    "text": "I am a fifth year PhD student in Department of Biostatistics at Harvard University, where I am co-advised by Rafael Irizarry and Jeff Miller. Prior to joining the Biostatistics department, I was a mathematics major at Harvard.\nMy research interests lie at the intersection of high-dimensional statistics and genomics. My recent work includes:\n\nDimensionality reduction for single-cell genomic data\nManifold learning for spatial transcriptomics\nIntegration of high-dimensional random matrices\nEstimation of perturbation effects in CRISPR data\n\nEmail: phillipnicol@g.harvard.edu"
   },
   {
     "objectID": "research.html",
@@ -179,7 +179,7 @@
     "href": "research.html#computational-biology",
     "title": "Research",
     "section": "Computational biology",
-    "text": "Computational biology\n\nXu, R.J., Cadinu, P., Nicol, P.B., Herrmann, U.S., Lee, T., Geitslinger, L., Irizarry, R.A., and Moffitt, J.R. (2025). An image-based transcriptomics atlas reveals the regional and microbiota-dependent molecular, cellular, and spatial structure of the murine gut. [Paper]\nSahu, A., Wang, X., Munson, P., Klomp, J., Wang, X., Gu, S., Qian, G., Nicol, P.B., Zeng, Z., Wang, C., Tokheim, C., Zhang, W., Fu, J., Wang, J., Nair, N.U., Rens, J., Bourajjaj, M., Jansen, B., Leenders, I., Lemmers, J., Musters, M., Zanten, S., Zelst, L., Worthington, J., Brown, M., Liu, J.S., Juric, D., Meyer, C.A., Oubrie, A., Liu, X.S., Fisher, D.E., and Flaherty, K.T. (2023). Discovery of targets for immune-metabolic antitumor drugs identifies Estrogen-related Receptor Alpha. Cancer Discovery. [Paper]"
+    "text": "Computational biology\n\nXu, R.J., Zhang, H.\\(^*\\), Cadinu, P.\\(^*\\), Nicol, P.B., Herrmann, U.S., Lee, T., Geitslinger, L., Irizarry, R.A., and Moffitt, J.R. (2025). An image-based transcriptomics atlas reveals the regional and microbiota-dependent molecular, cellular, and spatial structure of the murine gut. Cell Host and Microbe. [Paper]\nSahu, A., Wang, X., Munson, P., Klomp, J., Wang, X., Gu, S., Qian, G., Nicol, P.B., Zeng, Z., Wang, C., Tokheim, C., Zhang, W., Fu, J., Wang, J., Nair, N.U., Rens, J., Bourajjaj, M., Jansen, B., Leenders, I., Lemmers, J., Musters, M., Zanten, S., Zelst, L., Worthington, J., Brown, M., Liu, J.S., Juric, D., Meyer, C.A., Oubrie, A., Liu, X.S., Fisher, D.E., and Flaherty, K.T. (2023). Discovery of targets for immune-metabolic antitumor drugs identifies Estrogen-related Receptor Alpha. Cancer Discovery. [Paper]"
   },
   {
     "objectID": "research.html#data-integration",
@@ -201,5 +201,12 @@
     "title": "Binomial risk under absolute value loss: why a cauliflower?",
     "section": "References",
     "text": "References\nBlyth, C. R. (1980). Expected absolute error of the usual estimator of the binomial parameter. The American Statistician, 34(3), 155-157.\nLehmann, E. L., & Casella, G. (1998). Theory of point estimation. New York, NY: Springer New York."
+  },
+  {
+    "objectID": "research.html#epidemiology",
+    "href": "research.html#epidemiology",
+    "title": "Research",
+    "section": "Epidemiology",
+    "text": "Epidemiology\n\nAggarwal, S., Nicol, P.B., Coull, B.A., and Nethery, R.C. (2026). A varying-coefficient model for characterizing duration-driven heterogeneity in flood-related health impacts. [Paper]"
   }
 ]

@@ -30,8 +30,10 @@ Random Matrix Theory perspective on data integration. [\[Paper\]](https://arxiv.
 
 ## **Computational biology**
 
-- \item Xu, R.J., Cadinu, P., **Nicol, P.B.**, Herrmann, U.S., Lee, T., Geitslinger, L., Irizarry, R.A., and Moffitt, J.R. (2025). An image-based transcriptomics atlas reveals the regional and microbiota-dependent molecular, cellular, and spatial structure of the murine gut. [\[Paper\]](https://doi.org/10.1101/2025.07.21.665958)
+- Xu, R.J., Zhang, H.$^*$, Cadinu, P.$^*$, **Nicol, P.B.**, Herrmann, U.S., Lee, T., Geitslinger, L., Irizarry, R.A., and Moffitt, J.R. (2025). An image-based transcriptomics atlas reveals the regional and microbiota-dependent molecular, cellular, and spatial structure of the murine gut. *Cell Host and Microbe*. [\[Paper\]](https://doi.org/10.1016/j.chom.2026.01.018)
 
 - Sahu, A., Wang, X., Munson, P., Klomp, J., Wang, X., Gu, S., Qian, G., **Nicol, P.B.**, Zeng, Z., Wang, C., Tokheim, C., Zhang, W., Fu, J., Wang, J., Nair, N.U., Rens, J., Bourajjaj, M., Jansen, B., Leenders, I., Lemmers, J., Musters, M., Zanten, S., Zelst, L., Worthington, J., Brown, M., Liu, J.S., Juric, D., Meyer, C.A., Oubrie, A., Liu, X.S., Fisher, D.E., and Flaherty, K.T. (2023). Discovery of targets for immune-metabolic antitumor drugs identifies Estrogen-related Receptor Alpha. *Cancer Discovery*. [\[Paper\]](https://doi.org/10.1158/2159-8290.CD-22-0244)
 
+## **Epidemiology** 
 
+- Aggarwal, S., **Nicol, P.B.**, Coull, B.A., and Nethery, R.C. (2026). A varying-coefficient model for characterizing duration-driven heterogeneity in flood-related health impacts. [\[Paper\]](https://doi.org/10.48550/arXiv.2601.18656)
