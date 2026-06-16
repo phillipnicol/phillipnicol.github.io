@@ -5,35 +5,36 @@ title-block-banner: true
 
 ## **Data integration**
 
-- Baharav, T.Z.$^*$, **Nicol, P.B.$^*$**, Irizarry, R.A., and Ma, R. (2025). Stacked SVD or SVD Stacked? A
-Random Matrix Theory perspective on data integration. [\[Paper\]](https://arxiv.org/abs/2507.22170)
+-   Baharav, T.Z.$^*$, **Nicol, P.B.**$^*$, Irizarry, R.A., and Ma, R. (2025). Stacked SVD or SVD Stacked? A Random Matrix Theory perspective on data integration. [\[Paper\]](https://arxiv.org/abs/2507.22170) (Resubmission invited, Annals of Statistics).
 
 ## **Statistical methods for single-cell and spatial sequencing data**
 
-- **Nicol,P.B.**, Ma, R., Xu, R.J., Moffitt, J.R., and Irizarry, R.A. (2025). Identifying spatially variable genes by projecting to morphologically relevant curves. [\[Paper\]](https://doi.org/10.1101/2024.11.21.624653)[\[Software\]](https://github.com/phillipnicol/MorphoGAM)
+-   **Nicol, P.B.**, Shivakumar, S., and Irizarry, R.A. (2026). Spurious correlation inflates performance in single-cell perturbation prediction. [\[Paper\]](https://www.biorxiv.org/content/10.64898/2026.05.07.723486v1)
 
-- **Nicol, P.B.** and Miller, J.W. (2025). Model-based dimensionality reduction for single-cell RNA-seq using generalized bilinear models. *Biostatistics*. [\[Paper\]](https://doi.org/10.1093/biostatistics/kxaf024)[\[Software\]](https://github.com/phillipnicol/scGBM)
+-   **Nicol,P.B.**, Ma, R., Xu, R.J., Moffitt, J.R., and Irizarry, R.A. (2025). Identifying spatially variable genes by projecting to morphologically relevant curves. [\[Paper\]](https://doi.org/10.1101/2024.11.21.624653)[\[Software\]](https://github.com/phillipnicol/MorphoGAM) (Revision invited, Nature Methods)
 
-- **Nicol, P.B.**, Paulson, D., Qian, G., Liu, X.S., Irizarry, R.A., and Sahu, A.D. (2024). Robust identification of perturbed cell types in single-cell RNA-seq data. *Nature Communications*. [\[Paper\]](https://doi.org/10.1038/s41467-024-51649-3)[\[Software\]](https://github.com/phillipnicol/scDist)
+-   **Nicol, P.B.** and Miller, J.W. (2025). Model-based dimensionality reduction for single-cell RNA-seq using generalized bilinear models. *Biostatistics*. [\[Paper\]](https://doi.org/10.1093/biostatistics/kxaf024)[\[Software\]](https://github.com/phillipnicol/scGBM)
+
+-   **Nicol, P.B.**, Paulson, D., Qian, G., Liu, X.S., Irizarry, R.A., and Sahu, A.D. (2024). Robust identification of perturbed cell types in single-cell RNA-seq data. *Nature Communications*. [\[Paper\]](https://doi.org/10.1038/s41467-024-51649-3)[\[Software\]](https://github.com/phillipnicol/scDist)
 
 ## **Cancer evolution**
 
-- McDonald, T.O., Cheng, Y., Graser, C., **Nicol, P.B.**, Temko, D., and Michor, F. Computational approaches to modelling and optimizing cancer treatment. (2023). *Nature Reviews Bioengineering*. [\[Paper\]](https://doi.org/10.1038/s44222-023-00089-7)
+-   McDonald, T.O., Cheng, Y., Graser, C., **Nicol, P.B.**, Temko, D., and Michor, F. Computational approaches to modelling and optimizing cancer treatment. (2023). *Nature Reviews Bioengineering*. [\[Paper\]](https://doi.org/10.1038/s44222-023-00089-7)
 
-- **Nicol, P.B.**, Barabási, D.L., Coombes, K.R. and Asiaee, A. (2022). SITH: an R package for visualizing and analyzing a spatial model of intratumor heterogeneity. *Computational and Systems Oncology*. [\[Paper\]](https://doi.org/10.1002/cso2.1033)[\[Software\]](https://github.com/phillipnicol/SITH)
+-   **Nicol, P.B.**, Barabási, D.L., Coombes, K.R. and Asiaee, A. (2022). SITH: an R package for visualizing and analyzing a spatial model of intratumor heterogeneity. *Computational and Systems Oncology*. [\[Paper\]](https://doi.org/10.1002/cso2.1033)[\[Software\]](https://github.com/phillipnicol/SITH)
 
-- **Nicol,P.B.**, Coombes, K.R., Deaver, C., Chkrebtii, O.A., Paul, S., Toland, A.E., and Asiaee, A. (2021). Oncogenetic network estimation with disjunctive Bayesian networks. *Computational and Systems Oncology*. [\[Paper\]](https://doi.org/10.1002/cso2.1027)[\[Software\]](https://github.com/phillipnicol/OncoBN)
+-   **Nicol,P.B.**, Coombes, K.R., Deaver, C., Chkrebtii, O.A., Paul, S., Toland, A.E., and Asiaee, A. (2021). Oncogenetic network estimation with disjunctive Bayesian networks. *Computational and Systems Oncology*. [\[Paper\]](https://doi.org/10.1002/cso2.1027)[\[Software\]](https://github.com/phillipnicol/OncoBN)
 
-- **Nicol, P.B.** (2021). Modeling cancer evolution as an interacting particle system. Bachelor's thesis, Harvard College. [\[Paper\]](https://nrs.harvard.edu/URN-3:HUL.INSTREPOS:37370548})\
+-   **Nicol, P.B.** (2021). Modeling cancer evolution as an interacting particle system. Bachelor's thesis, Harvard College. [\[Paper\]](https://nrs.harvard.edu/URN-3:HUL.INSTREPOS:37370548%7D)\
 
-- **Nicol, P.B.** (2020). Detecting subclones from spatially resolved RNA-seq data. In proceedings for International Symposium on Mathematical and Computational Oncology (ISMCO'20). [\[Paper\]](https://link.springer.com/chapter/10.1007/978-3-030-64511-3_10)
+-   **Nicol, P.B.** (2020). Detecting subclones from spatially resolved RNA-seq data. In proceedings for International Symposium on Mathematical and Computational Oncology (ISMCO'20). [\[Paper\]](https://link.springer.com/chapter/10.1007/978-3-030-64511-3_10)
 
 ## **Computational biology**
 
-- Xu, R.J., Zhang, H.$^*$, Cadinu, P.$^*$, **Nicol, P.B.**, Herrmann, U.S., Lee, T., Geitslinger, L., Irizarry, R.A., and Moffitt, J.R. (2025). An image-based transcriptomics atlas reveals the regional and microbiota-dependent molecular, cellular, and spatial structure of the murine gut. *Cell Host and Microbe*. [\[Paper\]](https://doi.org/10.1016/j.chom.2026.01.018)
+-   Xu, R.J., Zhang, H.$^*$, Cadinu, P.$^*$, **Nicol, P.B.**, Herrmann, U.S., Lee, T., Geitslinger, L., Irizarry, R.A., and Moffitt, J.R. (2025). An image-based transcriptomics atlas reveals the regional and microbiota-dependent molecular, cellular, and spatial structure of the murine gut. *Cell Host and Microbe*. [\[Paper\]](https://doi.org/10.1016/j.chom.2026.01.018)
 
-- Sahu, A., Wang, X., Munson, P., Klomp, J., Wang, X., Gu, S., Qian, G., **Nicol, P.B.**, Zeng, Z., Wang, C., Tokheim, C., Zhang, W., Fu, J., Wang, J., Nair, N.U., Rens, J., Bourajjaj, M., Jansen, B., Leenders, I., Lemmers, J., Musters, M., Zanten, S., Zelst, L., Worthington, J., Brown, M., Liu, J.S., Juric, D., Meyer, C.A., Oubrie, A., Liu, X.S., Fisher, D.E., and Flaherty, K.T. (2023). Discovery of targets for immune-metabolic antitumor drugs identifies Estrogen-related Receptor Alpha. *Cancer Discovery*. [\[Paper\]](https://doi.org/10.1158/2159-8290.CD-22-0244)
+-   Sahu, A., Wang, X., Munson, P., Klomp, J., Wang, X., Gu, S., Qian, G., **Nicol, P.B.**, Zeng, Z., Wang, C., Tokheim, C., Zhang, W., Fu, J., Wang, J., Nair, N.U., Rens, J., Bourajjaj, M., Jansen, B., Leenders, I., Lemmers, J., Musters, M., Zanten, S., Zelst, L., Worthington, J., Brown, M., Liu, J.S., Juric, D., Meyer, C.A., Oubrie, A., Liu, X.S., Fisher, D.E., and Flaherty, K.T. (2023). Discovery of targets for immune-metabolic antitumor drugs identifies Estrogen-related Receptor Alpha. *Cancer Discovery*. [\[Paper\]](https://doi.org/10.1158/2159-8290.CD-22-0244)
 
-## **Epidemiology** 
+## **Epidemiology**
 
-- Aggarwal, S., **Nicol, P.B.**, Coull, B.A., and Nethery, R.C. (2026). A varying-coefficient model for characterizing duration-driven heterogeneity in flood-related health impacts. [\[Paper\]](https://doi.org/10.48550/arXiv.2601.18656)
+-   Aggarwal, S., **Nicol, P.B.**, Coull, B.A., and Nethery, R.C. (2026). A varying-coefficient model for characterizing duration-driven heterogeneity in flood-related health impacts. [\[Paper\]](https://doi.org/10.48550/arXiv.2601.18656)
