@@ -3,7 +3,9 @@ title: "About"
 title-block-banner: true
 ---
 
-I am a fifth year PhD student in Department of Biostatistics at Harvard University, where I am co-advised by Rafael Irizarry and Jeff Miller. Prior to joining the Biostatistics department, I was a mathematics major at Harvard.
+I am a William H. Kruskal Instructor of Statistics at the University of Chicago.
+I previously completed my PhD in biostatistics at Harvard University where I was
+advised by Rafael Irizarry and Jeff Miller. 
 
 My research interests lie at the intersection of high-dimensional statistics and genomics. My recent work includes:
 
@@ -12,57 +14,6 @@ My research interests lie at the intersection of high-dimensional statistics and
 3.  Integration of high-dimensional random matrices
 4.  Estimation of perturbation effects in CRISPR data
 
-Email: phillipnicol\@g.harvard.edu
+Email: pnicol\@uchicago.edu
 
-<!-- Simple slideshow -->
-
-::: {#slideshow .slideshow}
-<img src="images/me.jpg"/> <img src="images/morphoGAM.png"/> <img src="images/scGBM.png"/> <img src="images/scDist.png"/> <img src="images/spatialITH.png"/> <!-- add more <img> lines as needed -->
-:::
-
-```{=html}
-<style>
-#slideshow {
-  position: relative;
-  width: 100%;
-  max-width: 720px;
-  margin-top: 1rem;
-  overflow: hidden;
-  border-radius: 6px;
-  aspect-ratio: 16 / 9;      /* keeps box proportional and responsive */
-  background: #f6f6f6;
-}
-
-/* Use 'contain' to scale the whole image to fit the box (no cropping).
-   If you prefer filling + cropping, use 'cover' instead. */
-#slideshow img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  object-position: center;
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
-  display: block;
-}
-
-#slideshow img.active { opacity: 1; }
-</style>
-```
-
-```{=html}
-<script>
-(function(){
-  const slides = document.querySelectorAll('#slideshow img');
-  if (!slides.length) return;
-  let idx = 0;
-  slides[idx].classList.add('active');
-  setInterval(() => {
-    slides[idx].classList.remove('active');
-    idx = (idx + 1) % slides.length;
-    slides[idx].classList.add('active');
-  }, 4000); // change interval (ms) if you want
-})();
-</script>
-```
+![](images/headshot_25.png){width=300 fig-alt="Headshot"}
